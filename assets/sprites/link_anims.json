@@ -1,0 +1,61 @@
+{
+    "spritesheet": "link_sprites.json",
+    "animations": [
+        {
+            "name": "link_stand_default_right",
+            "frames": [
+                {"key": "link_stand_default_side"}
+            ]
+        },
+        {
+            "name": "link_stand_default_left",
+            "frames": [
+                {"key": "link_stand_default_side", "flipH": true}
+            ]
+        },
+        {
+            "name": "link_stand_default_up",
+            "frames": [
+                {"key": "link_stand_default_back"}
+            ]
+        },
+        {
+            "name": "link_stand_default_down",
+            "frames": [
+                {"key": "link_stand_default_front"}
+            ]
+        },
+        {
+            "name": "link_walk_default_right",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_default_side"},
+                {"key": "link_walk_default_side"}
+            ]
+        },
+        {
+            "name": "link_walk_default_left",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_default_side", "flipH": true},
+                {"key": "link_walk_default_side", "flipH": true}
+            ]
+        },
+        {
+            "name": "link_walk_default_up",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_default_back"},
+                {"key": "link_stand_default_back", "flipH": true}
+            ]
+        },
+        {
+            "name": "link_walk_default_down",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_default_front"},
+                {"key": "link_stand_default_front", "flipH": true}
+            ]
+        }
+    ]
+}

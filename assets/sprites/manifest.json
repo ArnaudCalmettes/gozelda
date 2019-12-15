@@ -1,0 +1,9 @@
+{
+    "collections": [
+        {
+            "name": "link",
+            "spritesheet": "link_sprites.json",
+            "animations": ["link_anims.json"]
+        }
+    ]
+}
