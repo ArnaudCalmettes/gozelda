@@ -2,30 +2,6 @@
     "spritesheet": "link_sprites.json",
     "animations": [
         {
-            "name": "link_stand_default_right",
-            "frames": [
-                {"key": "link_stand_default_side"}
-            ]
-        },
-        {
-            "name": "link_stand_default_left",
-            "frames": [
-                {"key": "link_stand_default_side", "flipH": true}
-            ]
-        },
-        {
-            "name": "link_stand_default_up",
-            "frames": [
-                {"key": "link_stand_default_back"}
-            ]
-        },
-        {
-            "name": "link_stand_default_down",
-            "frames": [
-                {"key": "link_stand_default_front"}
-            ]
-        },
-        {
             "name": "link_walk_default_right",
             "fps": 7,
             "frames": [
@@ -55,6 +31,326 @@
             "frames": [
                 {"key": "link_stand_default_front"},
                 {"key": "link_stand_default_front", "flipH": true}
+            ]
+        },
+
+        {
+            "name": "link_walk_shield_off_right",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_shield_off_side"},
+                {"key": "link_walk_shield_off_side"}
+            ]
+        },
+        {
+            "name": "link_walk_shield_off_left",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_default_side", "flipH": true},
+                {"key": "link_walk_default_side", "flipH": true}
+            ]
+        },
+        {
+            "name": "link_walk_shield_off_up",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_shield_off_back"},
+                {"key": "link_walk_shield_off_back"}
+            ]
+        },
+        {
+            "name": "link_walk_shield_off_down",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_shield_off_front"},
+                {"key": "link_walk_shield_off_front"}
+            ]
+        },
+
+        {
+            "name": "link_walk_shield_on_right",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_shield_on_right"},
+                {"key": "link_walk_shield_on_right"}
+            ]
+        },
+        {
+            "name": "link_walk_shield_on_left",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_shield_on_left"},
+                {"key": "link_walk_shield_on_left"}
+            ]
+        },
+        {
+            "name": "link_walk_shield_on_up",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_shield_on_back"},
+                {"key": "link_walk_shield_on_back"}
+            ]
+        },
+        {
+            "name": "link_walk_shield_on_down",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_shield_on_front"},
+                {"key": "link_walk_shield_on_front"}
+            ]
+        },
+
+
+        {
+            "name": "link_walk_mirror_off_right",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_mirror_off_side"},
+                {"key": "link_walk_mirror_off_side"}
+            ]
+        },
+        {
+            "name": "link_walk_mirror_off_left",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_default_side", "flipH": true},
+                {"key": "link_walk_default_side", "flipH": true}
+            ]
+        },
+        {
+            "name": "link_walk_mirror_off_up",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_shield_off_back"},
+                {"key": "link_walk_shield_off_back"}
+            ]
+        },
+        {
+            "name": "link_walk_mirror_off_down",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_shield_off_front"},
+                {"key": "link_walk_shield_off_front"}
+            ]
+        },
+
+
+        {
+            "name": "link_walk_mirror_on_right",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_shield_on_right"},
+                {"key": "link_walk_shield_on_right"}
+            ]
+        },
+        {
+            "name": "link_walk_mirror_on_left",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_shield_on_left"},
+                {"key": "link_walk_shield_on_left"}
+            ]
+        },
+        {
+            "name": "link_walk_mirror_on_up",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_shield_on_back"},
+                {"key": "link_walk_shield_on_back"}
+            ]
+        },
+        {
+            "name": "link_walk_mirror_on_down",
+            "fps": 7,
+            "frames": [
+                {"key": "link_stand_mirror_on_front"},
+                {"key": "link_walk_mirror_on_front"}
+            ]
+        },
+
+        {
+            "name": "link_jump_right",
+            "fps": 7,
+            "frames": [
+                {"key": "link_sommersault_side_1"},
+                {"key": "link_sommersault_side_2"},
+                {"key": "link_sommersault_side_1", "flipV": true, "flipH": true}
+            ]
+        },
+        {
+            "name": "link_jump_left",
+            "fps": 7,
+            "frames": [
+                {"key": "link_sommersault_side_1", "flipH": true},
+                {"key": "link_sommersault_side_2", "flipH": true},
+                {"key": "link_sommersault_side_1", "flipV": true}
+            ]
+        },
+        {
+            "name": "link_jump_down",
+            "fps": 7,
+            "frames": [
+                {"key": "link_sommersault_front_1"},
+                {"key": "link_sommersault_front_2"},
+                {"key": "link_sommersault_front_3"}
+            ]
+        },
+        {
+            "name": "link_jump_up",
+            "fps": 7,
+            "frames": [
+                {"key": "link_sommersault_front_1", "flipV": true},
+                {"key": "link_sommersault_front_2", "flipV": true},
+                {"key": "link_sommersault_front_3", "flipV": true}
+            ]
+        },
+
+        {
+            "name": "link_swim_right",
+            "fps": 5,
+            "frames": [
+                {"key": "link_swim_high_side"},
+                {"key": "link_swim_low_side"}
+            ]
+        },
+        {
+            "name": "link_swim_left",
+            "fps": 5,
+            "frames": [
+                {"key": "link_swim_high_side", "flipH": true},
+                {"key": "link_swim_low_side", "flipH": true}
+            ]
+        },
+        {
+            "name": "link_swim_up",
+            "fps": 5,
+            "frames": [
+                {"key": "link_swim_high_back"},
+                {"key": "link_swim_low_back"}
+            ]
+        },
+        {
+            "name": "link_swim_down",
+            "fps": 5,
+            "frames": [
+                {"key": "link_swim_high_front"},
+                {"key": "link_swim_low_front"}
+            ]
+        },
+        {
+            "name": "link_dive",
+            "fps": 5,
+            "frames": [
+                {"key": "link_swim_underwater_1"},
+                {"key": "link_swim_underwater_2"}
+            ]
+        },
+
+        {
+            "name": "link_swim_full_right",
+            "fps": 5,
+            "frames": [
+                {"key": "link_swim_fullbody_1"},
+                {"key": "link_swim_fullbody_2"}
+            ]
+        },
+        {
+            "name": "link_swim_full_left",
+            "fps": 5,
+            "frames": [
+                {"key": "link_swim_fullbody_1", "flipH": true},
+                {"key": "link_swim_fullbody_2", "flipH": true}
+            ]
+        },
+
+        {
+            "name": "link_spin",
+            "fps": 14,
+            "frames": [
+                {"key": "link_spin_1"},
+                {"key": "link_spin_2"},
+                {"key": "link_spin_3"},
+                {"key": "link_spin_4"},
+                {"key": "link_spin_5"},
+                {"key": "link_spin_4", "flipH": true},
+                {"key": "link_spin_3", "flipH": true},
+                {"key": "link_spin_2", "flipH": true}
+            ]
+        },
+
+        {
+            "name": "link_fall",
+            "fps": 5,
+            "frames": [
+                {"key": "link_fall_1"},
+                {"key": "link_fall_2"},
+                {"key": "link_fall_3"}
+            ]
+        },
+
+        {
+            "name": "link_push_right",
+            "fps": 5,
+            "frames": [
+                {"key": "link_hold_side"},
+                {"key": "link_push_side"}
+            ]
+        },
+        {
+            "name": "link_push_left",
+            "fps": 5,
+            "frames": [
+                {"key": "link_hold_side", "flipH": true},
+                {"key": "link_push_side", "flipH": true}
+            ]
+        },
+        {
+            "name": "link_push_up",
+            "fps": 5,
+            "frames": [
+                {"key": "link_hold_back"},
+                {"key": "link_push_back"}
+            ]
+        },
+        {
+            "name": "link_push_down",
+            "fps": 5,
+            "frames": [
+                {"key": "link_hold_front"},
+                {"key": "link_push_front"}
+            ]
+        },
+
+        {
+            "name": "link_pull_right",
+            "fps": 5,
+            "frames": [
+                {"key": "link_hold_side"},
+                {"key": "link_pull_side"}
+            ]
+        },
+        {
+            "name": "link_pull_left",
+            "fps": 5,
+            "frames": [
+                {"key": "link_hold_side", "flipH": true},
+                {"key": "link_pull_side", "flipH": true}
+            ]
+        },
+        {
+            "name": "link_pull_up",
+            "fps": 5,
+            "frames": [
+                {"key": "link_hold_back"},
+                {"key": "link_pull_back"}
+            ]
+        },
+        {
+            "name": "link_pull_down",
+            "fps": 5,
+            "frames": [
+                {"key": "link_hold_front"},
+                {"key": "link_pull_front"}
             ]
         }
     ]

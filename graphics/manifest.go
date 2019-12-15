@@ -221,7 +221,7 @@ func (a *AnimationManifest) Check() error {
 			return fmt.Errorf("anim #%d (%s) has no frames", i, anim.Name)
 		}
 		if anim.FPS == 0 && len(anim.Frames) > 1 {
-			return fmt.Errorf("anim #%d (%s) should has a null FPS", i, anim.Name)
+			return fmt.Errorf("anim #%d (%s) has a null FPS", i, anim.Name)
 		}
 		for j, frame := range anim.Frames {
 			if frame.Key == "" {
