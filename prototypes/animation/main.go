@@ -75,6 +75,8 @@ func main() {
 		}
 	}
 
+	ebiten.SetMaxTPS(30)
+
 	now := time.Now()
 	update := func(screen *ebiten.Image) error {
 		// Compute dt & update the clock
